@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Navbar from './Navbar';
-import heroBg from '../Asserts/hero-bg.jpg';
+import heroBg from '../asserts/hero-bg.jpg';
 
 function HeroSection() {
   return (

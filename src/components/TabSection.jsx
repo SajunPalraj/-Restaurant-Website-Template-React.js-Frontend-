@@ -11,10 +11,10 @@ import Container from '@mui/material/Container';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 // Import images
-import imgBurger from '../Asserts/Food(6).png';
-import imgPizza from '../Asserts/Food(7).png';
-import imgPasta from '../Asserts/Food(8).png'; // using as placeholder
-import imgFries from '../Asserts/Food(9).png'; // using as placeholder
+import imgBurger from '../asserts/Food(6).png';
+import imgPizza from '../asserts/Food(7).png';
+import imgPasta from '../asserts/Food(8).png'; // using as placeholder
+import imgFries from '../asserts/Food(9).png'; // using as placeholder
 import Button from '@mui/material/Button';
 const menuItems = [
     { id: 1, category: 'Pizza', title: 'Delicious Pizza', desc: 'Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque', price: '$20', img: imgPizza },

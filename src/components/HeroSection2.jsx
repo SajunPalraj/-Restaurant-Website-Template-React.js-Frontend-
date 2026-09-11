@@ -5,8 +5,8 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import burgerImg from '../Asserts/Food(6).png';
-import pizzaImg from '../Asserts/Food(7).png';
+import burgerImg from '../asserts/Food(6).png';
+import pizzaImg from '../asserts/Food(7).png';
 
 function OfferCard({ title, discount, image }) {
   return (

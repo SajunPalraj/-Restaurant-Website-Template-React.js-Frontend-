@@ -1,7 +1,7 @@
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box'
 import React from 'react'
-import img from "../Asserts/Food(12).png"
+import img from "../asserts/Food(12).png"
 import Button from '@mui/material/Button';
 function HeroSection3() {
   return (
