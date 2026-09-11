@@ -1,16 +1,68 @@
-# React + Vite
+# 🍔 Restaurant Website Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive restaurant website template built with **React.js**, **Vite**, **Material UI (MUI)**, and **React Router**.
 
-Currently, two official plugins are available:
+This project is an independent React implementation inspired by the design and layout of the Feane restaurant template. It includes reusable components, responsive layouts, menu filtering, page navigation, booking form, and customer testimonials.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> 🎨 **Design Inspiration & Credit:**  
+> This project is inspired by the Feane restaurant template by ThemeWagon.  
+> Original reference: https://themewagon.github.io/feane/index.html
+>
+> This is an independent implementation created for learning, practice, and portfolio purposes and is not the original Feane template.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 🏠 Responsive Home page
+- 🍕 Food menu with category filtering
+- 🏷️ Special offers section
+- 📖 About restaurant section
+- 📅 Book a Table form
+- ⭐ Customer testimonial slider
+- 🧭 React Router navigation
+- 📱 Fully responsive design
+- 🎨 Material UI components
+- ♻️ Reusable React components
+- ⚡ Smooth page transitions and scrolling
+- 🦶 Common Navbar and Footer across pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| ⚛️ React.js | Frontend UI |
+| ⚡ Vite | Development & build tool |
+| 🎨 Material UI | UI components & styling |
+| 🧭 React Router | Page navigation |
+| 🟨 JavaScript | Application logic |
+| 🌐 HTML5 | Structure |
+| 🎨 CSS3 | Styling |
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Offers.jsx
+│   ├── MenuSection.jsx
+│   ├── AboutSection.jsx
+│   ├── BookingSection.jsx
+│   └── SliderSection.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Menu.jsx
+│   ├── About.jsx
+│   └── BookTable.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
